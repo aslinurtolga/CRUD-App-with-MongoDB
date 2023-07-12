@@ -23,35 +23,28 @@ CRUD-App-with-MongoDB(folder)
 |----readme.md
 SOLUTION
 ├── app
+│     └── addTopic
+│    │       │     └── page.jsx
+│     └── api/topics
+│    │       │     └── [id]
+│    │       │     │    └── route.js
+│     └── editTopic/[id]
+│    │       │     └── page.jsx
+│     └── favicon.ico
+│     └── globals.css
+│     └── layout.js
+│     └── page.jsx
 ├── assets
+│     └── ss.png
 ├── components
+│     └── EditTopicForm.jsx
+│     └── Navbar.jsx
+│     └── RemoveBtn.jsx
+│     └── TopicsList.jsx
 ├── libs
+│     └── mongodb.js
 ├── models
-├── public
-│     └── About.tsx
-│     └── BgCircle.tsx
-│     └── Contact.tsx
-│     └── Header.tsx
-│     └── MoonIcon.tsx
-│     └── Projects.tsx
-│     └── Skill.tsx
-│     └── Skills.tsx
-│     └── SunIcon.tsx
-├── public
-│    ├── components
-│    │       ├── form
-│    │       │     └── Form.js
-│    │       └── table
-│    │             └── Table.js
-│    ├── utils
-│    │       ├── customToastify.js
-│    │       ├── functions.js
-│    │       └── firebase.js
-│    ├── App.js
-│    ├── App.css
-│    ├── index.js
-│    ├── Animation.gif
-│    └── index.css
+│     └── topic.js
 ├── package.json
 └── yarn.lock
 ```
