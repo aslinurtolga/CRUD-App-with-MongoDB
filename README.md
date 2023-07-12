@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+CRUD App with MongoDB
 
-## Getting Started
+## Visulation of the Website
 
-First, run the development server:
+![image](./assets/portfolio.img.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Description
+
+Project aims get information about My Personal Portfolio via a Javascript React with Next.js framework.
+
+## Learning Outcomes
+
+At the end of the this project, you will be able to;
+
+- improve coding skills within ReactJS, Typescript, Next.js, Tailwindcss, Framer Motion.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+# Getting Started with Create React App
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contact App (folder)
+|
+|----readme.md
+SOLUTION
+├── assets
+├── styles
+├── pages
+├── data
+├── components
+│     └── About.tsx
+│     └── BgCircle.tsx
+│     └── Contact.tsx
+│     └── Header.tsx
+│     └── MoonIcon.tsx
+│     └── Projects.tsx
+│     └── Skill.tsx
+│     └── Skills.tsx
+│     └── SunIcon.tsx
+├── public
+│    ├── components
+│    │       ├── form
+│    │       │     └── Form.js
+│    │       └── table
+│    │             └── Table.js
+│    ├── utils
+│    │       ├── customToastify.js
+│    │       ├── functions.js
+│    │       └── firebase.js
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    ├── Animation.gif
+│    └── index.css
+├── package.json
+└── yarn.lock
+```
