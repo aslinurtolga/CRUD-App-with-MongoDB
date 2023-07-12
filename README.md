@@ -2,31 +2,32 @@ CRUD App with MongoDB
 
 ## Visulation of the Website
 
-![image](./assets/portfolio.img.png)
+![image](./assets/ss.png)
 
 ## Description
 
-Project aims get information about My Personal Portfolio via a Javascript React with Next.js framework.
+Project aims get information about CRUD App with MongoDB via a Javascript React with Next.js framework and MongoDB.
 
 ## Learning Outcomes
 
 At the end of the this project, you will be able to;
 
-- improve coding skills within ReactJS, Typescript, Next.js, Tailwindcss, Framer Motion.
+- improve coding skills within ReactJS, Next.js, Tailwindcss, MongoDB.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 # Getting Started with Create React App
 
 ```
-Contact App (folder)
+CRUD-App-with-MongoDB(folder)
 |
 |----readme.md
 SOLUTION
+├── app
 ├── assets
-├── styles
-├── pages
-├── data
 ├── components
+├── libs
+├── models
+├── public
 │     └── About.tsx
 │     └── BgCircle.tsx
 │     └── Contact.tsx
